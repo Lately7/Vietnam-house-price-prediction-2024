@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-#Đọc file
+# Đọc file
 df = pd.read_csv("vietnam_housing_dataset.csv")
 
 # Chuẩn hóa tên cột

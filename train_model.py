@@ -110,7 +110,6 @@ if hasattr(best_model, "feature_importances_"):
 joblib.dump(best_model, "best_house_price_model.pkl")
 joblib.dump(feature_cols, "model_features.pkl")
 
-print("\nĐã lưu:")
 print("- best_house_price_model.pkl")
 print("- model_features.pkl")
 if "importances" in locals():
